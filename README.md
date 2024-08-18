@@ -70,8 +70,8 @@ npm run watch
 #### 3. Testing the Project
 Once the project is running, open up a browser and navigate to `localhost:8082` and you should see text saying `All is Good!`.
 
-`Note:` Note: Ensure that you have installed all necessary dependencies for both the backend (`mvn install`) and the frontend (`npm install`) before running the project.
-Once your project is up in running ensure you embed security by removing the applications.properties file or configuring other options such as Secrets Managers, etc.
+`Note:` Ensure that you have installed all necessary dependencies for both the backend (`mvn install`) and the frontend (`npm install`) before running the project.
+Once your project is up and running ensure you embed security by removing the applications.properties file or configuring other options such as Secrets Managers, etc.
 
 #### 4. Installing the Archetype Locally
 1. Prepare the Project: remove any unnecessary or environment specific files that may have been generated (`target/`, `.idea/`, `.vscode/`, etc).
@@ -89,6 +89,7 @@ cd target/generated-sources/archetype
 mvn clean install
 ```
 This command will install the archetype into your local Maven repository, making it available for use in future projects.
+
 6. Generate a new project using the archetype:
 ```bash
  mvn archetype:generate -DarchetypeCatalog=local
