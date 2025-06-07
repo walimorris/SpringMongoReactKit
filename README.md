@@ -47,6 +47,7 @@ Replace `<username>`, `<password>`, `<cluster-url>`, and `<database>` with your 
 ### Building and Running the Project
 
 Once you've customized the project, you can build and run it using the following commands:
+Note: Ensure you've added database properties to application.properties file!
 #### 1. Build the Project
 To build the backend and frontend, run the following commands:
 ``` bash
