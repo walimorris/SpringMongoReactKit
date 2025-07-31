@@ -36,3 +36,14 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Mac OS ###
+.DS_Store
+
+### additional ###
+node_modules
+*.properties
+aws-config
+node
+.idea/
+*.log
